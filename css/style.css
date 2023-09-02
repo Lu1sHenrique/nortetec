@@ -185,7 +185,7 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/logo_norte.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -313,8 +313,8 @@
 }
 
 
-/*** Testimonial ***/
-.testimonial-carousel::before {
+/*** Customers ***/
+.customers-carousel::before {
     position: absolute;
     content: "";
     top: 0;
@@ -325,7 +325,7 @@
     z-index: 1;
 }
 
-.testimonial-carousel::after {
+.customers-carousel::after {
     position: absolute;
     content: "";
     top: 0;
@@ -337,44 +337,44 @@
 }
 
 @media (min-width: 768px) {
-    .testimonial-carousel::before,
-    .testimonial-carousel::after {
+    .customers-carousel::before,
+    .customers-carousel::after {
         width: 200px;
     }
 }
 
 @media (min-width: 992px) {
-    .testimonial-carousel::before,
-    .testimonial-carousel::after {
+    .customers-carousel::before,
+    .customers-carousel::after {
         width: 300px;
     }
 }
 
-.testimonial-carousel .owl-item .testimonial-text {
+.customers-carousel .owl-item .customers-text {
     background: var(--light);
     transform: scale(.8);
     transition: .5s;
 }
 
-.testimonial-carousel .owl-item.center .testimonial-text {
+.customers-carousel .owl-item.center .customers-text {
     background: var(--primary);
     transform: scale(1);
 }
 
-.testimonial-carousel .owl-item .testimonial-text *,
-.testimonial-carousel .owl-item .testimonial-item img {
+.customers-carousel .owl-item .customers-text *,
+.customers-carousel .owl-item .customers-item img {
     transition: .5s;
 }
 
-.testimonial-carousel .owl-item.center .testimonial-text * {
+.customers-carousel .owl-item.center .customers-text * {
     color: var(--light) !important;
 }
 
-.testimonial-carousel .owl-item.center .testimonial-item img {
+.customers-carousel .owl-item.center .customers-item img {
     background: var(--primary) !important;
 } 
 
-.testimonial-carousel .owl-nav {
+.customers-carousel .owl-nav {
     position: absolute;
     width: 350px;
     top: 15px;
@@ -387,21 +387,21 @@
     z-index: 1;
 }
 
-.testimonial-carousel:hover .owl-nav {
+.customers-carousel:hover .owl-nav {
     width: 300px;
     opacity: 1;
 }
 
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next {
+.customers-carousel .owl-nav .owl-prev,
+.customers-carousel .owl-nav .owl-next {
     position: relative;
     color: var(--primary);
     font-size: 45px;
     transition: .5s;
 }
 
-.testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial-carousel .owl-nav .owl-next:hover {
+.customers-carousel .owl-nav .owl-prev:hover,
+.customers-carousel .owl-nav .owl-next:hover {
     color: var(--dark);
 }
 
