@@ -189,6 +189,13 @@
     background-size: cover;
 }
 
+.page-header-404 {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/404.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: #999999;
 }
